@@ -14,5 +14,6 @@ def do_stuff():
     """Function docstring"""
     # statements...
 
-
 main()
+
+# This is just a test
