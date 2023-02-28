@@ -1,19 +1,9 @@
-"""Module docstring"""
+min_len = 10;
 
+user = input("Enter a password: ")
 
-# imports
-# CONSTANTS
+while len(user) < min_len:
+    print("The password need to have at least " + str(min_len) + " characters")
+    user = input("Please enter a password: ")
 
-def main():
-    """Function docstring"""
-    # statements...
-    do_stuff()
-
-
-def do_stuff():
-    """Function docstring"""
-    # statements...
-
-main()
-
-# This is just a test
+print("*"*len(user))
