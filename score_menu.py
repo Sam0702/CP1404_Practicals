@@ -9,6 +9,17 @@ choice = input("Enter your choice: ")
 
 while choice != "Q":
     if choice == "G":
-        print(random.randint(0, 100));
-
+        ans = random.randint(0, 100);
+        print(ans)
     elif choice == "P":
+        print("ans");
+        break
+    elif choice == "S":
+        print("Show stars")
+
+    elif choice == "Q":
+        break
+    else:
+        print("Invalid input")
+
+
