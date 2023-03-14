@@ -21,5 +21,3 @@ while choice != "Q":
         break
     else:
         print("Invalid input")
-
-
